@@ -1,0 +1,3 @@
+rootProject.name = 'km_mobile'
+
+include ':app'
