@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "module": "es2015",
+        "target": "es2015",
+        "moduleResolution": "node",
+        "baseUrl": "src",
+        "allowSyntheticDefaultImports": true,
+        "noImplicitAny": true,
+        "sourceMap": true,
+        "outDir": "build",
+        "jsx": "react"
+    },
+    "filesGlob": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "exclude": [
+        "node_modules",
+        "build",
+        "android",
+        "ios"
+    ]
+}
